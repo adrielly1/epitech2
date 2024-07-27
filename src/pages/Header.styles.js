@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export  const CardContainer = styled.header`
     background: ${props => props.theme.cardPurple};
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;

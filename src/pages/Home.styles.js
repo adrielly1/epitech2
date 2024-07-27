@@ -1,10 +1,19 @@
 import styled from "styled-components";
 
-export const Conteudo = styled.main`
+export const Conteudo = styled.div`
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    overflow-y: hidden;
+    
     img {
+
         width: 100%;
         display: flex;
-        padding: 10px 0;
+        padding: 0px;
     }
 
     h1 {
@@ -41,39 +50,40 @@ export const Conteudo = styled.main`
         width: 20%;
         position: relative;
         top: 80px;
-        left: 10%; 
+        left: -30%; 
         font-family: Archivo;
         font-weight: bold;
         background-color: ${props=> props.theme.cardPurple};
         text-align: left;
         display: flex;
-        padding: 23px;
+        padding: 30px;
         
     }
 
     .cardTwo {
         width: 20%;
         position: relative;
-        top: -280px;
-        left: 40%; 
+        top: -320px;
+        left: 0; 
         font-family: Archivo;
         font-weight: bold;
         text-align: left;
         display: flex;
-        padding: 25px;
+        padding: 38px;
     }
 
     .cardTree {
         width: 20%;
         position: relative;
-        top: -660px;
-        left: 70%; 
+        top: -720px;
+        left: 30%; 
         font-family: Archivo;
         font-weight: bold;
         text-align: left;
         display: flex;
-        padding: 40px;
+        padding: 45px;
     }
+
 
     .textgrey {
         color: ${props => props.theme.titleGrey};
