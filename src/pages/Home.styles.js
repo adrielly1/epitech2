@@ -28,7 +28,7 @@ export const Conteudo = styled.div`
         text-shadow: 2px 2px 4px #000000;  
     }
     h2 {
-        font-family: Archivo;
+        font-family: Archivo Black;
         font-size: 40px;
         color: ${props => props.theme.titlePurple};
         width: 30%;
@@ -51,37 +51,37 @@ export const Conteudo = styled.div`
         position: relative;
         top: 80px;
         left: -30%; 
-        font-family: Archivo;
+        font-family: Archivo Black;
         font-weight: bold;
         background-color: ${props=> props.theme.cardPurple};
         text-align: left;
         display: flex;
-        padding: 30px;
+        padding: 25px;
         
     }
 
     .cardTwo {
         width: 20%;
         position: relative;
-        top: -320px;
+        top: -405px;
         left: 0; 
-        font-family: Archivo;
+        font-family: Archivo Black;
         font-weight: bold;
         text-align: left;
         display: flex;
-        padding: 38px;
+        padding: 15px;
     }
 
     .cardTree {
         width: 20%;
         position: relative;
-        top: -720px;
+        top: -900px;
         left: 30%; 
-        font-family: Archivo;
+        font-family: Archivo Black;
         font-weight: bold;
         text-align: left;
         display: flex;
-        padding: 45px;
+        padding: 47px;
     }
 
 
@@ -105,7 +105,7 @@ export const Conteudo = styled.div`
         color: ${props => props.theme.white};
         position: absolute;
         top: 40%;
-        left: 10%; 
+        left: 9.5%; 
         font-size: 45px; 
         font-weight: bold;
         text-shadow: 2px 2px 4px #000000; 

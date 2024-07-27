@@ -16,4 +16,12 @@ export const GlobalStytle = createGlobalStyle`
         font-size: 1.6rem;
         background: ${props => props.theme.white};
     }
+
+    .backgroundTitle {
+        color: ${props=> props.theme.white};
+        background-color: ${props => props.theme.baseColor};
+        padding: 0;
+        margin: 80px 30%;
+        border-radius: 15px;
+    }
 `
