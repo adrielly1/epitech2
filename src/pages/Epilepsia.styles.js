@@ -9,7 +9,7 @@ export const Conteudo = styled.main`
         text-align: center;
     }
     h3 {
-        font-size: 25px;
+        font-size: 40px;
     }
 
     .cardPurple {
@@ -50,6 +50,19 @@ export const Conteudo = styled.main`
         gap: 0px;
     }
 
+    .tituloCards {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .card img {
+        display: flex;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
     .elements {
         margin: 30px;
         justify-content: center;
@@ -74,6 +87,7 @@ export const Conteudo = styled.main`
         justify-content: center;
         gap: 20px;
         border-radius: 30px;
+        margin-bottom: 40px;
     }
 
     .sintomas img {

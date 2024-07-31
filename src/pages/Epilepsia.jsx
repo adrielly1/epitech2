@@ -4,6 +4,8 @@ import choque  from "../assets/Choque.png";
 import Maleta from "../assets/maleta.png"
 import seringa from "../assets/seringa.png"
 import Reme from "../assets/remedios.png"
+import Cerebro510 from "../assets/cerebro5-10.png"
+import Cerebro1010 from "../assets/cerebro10-10.png"
 import Epi from "../assets/Epilepsia.png"
 
 export default function Epilepsia() {
@@ -18,8 +20,10 @@ export default function Epilepsia() {
           <h2>Crises epiléticas:</h2>
           <p>As crises epiléticas podem ser classificadas em dois grandes grupos:</p>
           <ul className="card">
-            <li className="cardPurple "><h3>Crises focais:</h3>Localizadas em uma área específica do cérebro. Podem ser simples, quando a pessoa mantém a consciência, ou complexas, quando há perda ou alteração da consciência.</li>
-            <li className="cardGrey "><h3>Crises Generalizadas:</h3> Afetam ambos os hemisférios cerebrais desde o início. Exemplos incluem crises de ausência (onde a pessoa perde a consciência por alguns segundos) e crises tônico-crônicas (caracterizadas por perda de consciência e convulsões generalizadas).</li>
+            <li className="cardPurple ">
+              <div className="tituloCards"><img src={Cerebro510} alt="" /><h3>Crises Focais:</h3></div>Localizadas em uma área específica do cérebro. Podem ser simples, quando a pessoa mantém a consciência, ou complexas, quando há perda ou alteração da consciência.</li>
+            <li className="cardGrey ">
+              <div className="tituloCards"><img src={Cerebro1010} alt="" /><h3>Crises Generalizadas:</h3></div> Afetam ambos os hemisférios cerebrais desde o início. Exemplos incluem crises de ausência (onde a pessoa perde a consciência por alguns segundos) e crises tônico-crônicas (caracterizadas por perda de consciência e convulsões generalizadas).</li>
           </ul>
         </section>
 
