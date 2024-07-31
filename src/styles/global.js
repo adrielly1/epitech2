@@ -21,7 +21,10 @@ export const GlobalStytle = createGlobalStyle`
         color: ${props=> props.theme.white};
         background-color: ${props => props.theme.baseColor};
         padding: 0;
-        margin: 80px 30%;
         border-radius: 15px;
+
+        font-size: 50px;
+        font-family: Archivo Black;
+        text-align: center;
     }
 `

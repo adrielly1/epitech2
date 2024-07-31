@@ -1,10 +1,35 @@
 import Header from './Header'
+import { Conteudo } from './Prototipo.styles'
+
+import Bracelete from "../assets/bracelete.png"
+import elemento from "../assets/elementoProt.png"
 
 export default function Prototipo() {
   return (
-    <div>Prototipo
-
+    <div>
         <Header />
+
+        <Conteudo>
+          <h1 className="backgroundTitle">PROTÓTIPO</h1>
+
+          <img src={Bracelete} alt="" />
+          <h2>Dispositivo de Biofeedback para Monitoramento de Pessoas Epilépticas:</h2>
+
+          <p>Nosso projeto consiste no desenvolvimento de um dispositivo de biofeedback, projetado para monitorar sinais vitais e dizer se as crianças e adolescentes estão tendo crises epilépticas, proporcionando um aviso antecipado para que medidas preventivas possam ser tomadas.</p>
+          <p>O objetivo do projeto é analisar os sinais vitais e identificar o possível começo de uma convulsão, queremos reduzir a ansiedade e o estresse associados à imprevisibilidade das crises.</p>
+          <p>O diferencial do projeto é o foco em desenvolver a capacidade do dispositivo de prever e avisar quando a criança ou adolescente passa por uma crise epiléptica.</p>
+          <p>Utilizando o Arduino, criamos um bracelete que envia alertas tanto para a pessoa quanto para seus responsáveis, através de um aplicativo.</p>
+          <p>Levando em consideração os sintomas de pessoas epilépticas, o dispositivo consiste em um bracelete equipado com vários sensores conectados a uma plataforma Arduino.</p>
+          <p>Esses sensores monitoram:</p>
+          <ul>
+            <li>Frequência cardíaca;</li>
+            <li>Temperatura corporal;</li>
+            <li>Contrações musculares;</li>
+            <li>Condutividade da pele;</li>
+          </ul>
+          <img src={elemento} alt="" />
+
+        </Conteudo>
     </div>
   )
 }

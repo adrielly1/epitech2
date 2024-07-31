@@ -82,7 +82,7 @@ export const Conteudo = styled.div`
         text-align: left;
         display: flex;
         padding: 47px;
-    }
+    } 
 
 
     .textgrey {
