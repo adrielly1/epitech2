@@ -12,7 +12,7 @@ export default function Prototipo() {
         <Conteudo>
           <h1 className="backgroundTitle">PROTÓTIPO</h1>
 
-          <img src={Bracelete} alt="" />
+          <img src={Bracelete} alt="Imagens ilustrativa do produto" />
           <h2>Dispositivo de Biofeedback para Monitoramento de Pessoas Epilépticas:</h2>
 
           <p>Nosso projeto consiste no desenvolvimento de um dispositivo de biofeedback, projetado para monitorar sinais vitais e dizer se as crianças e adolescentes estão tendo crises epilépticas, proporcionando um aviso antecipado para que medidas preventivas possam ser tomadas.</p>
@@ -27,7 +27,7 @@ export default function Prototipo() {
             <li>Contrações musculares;</li>
             <li>Condutividade da pele;</li>
           </ul>
-          <img src={elemento} alt="" />
+          <img src={elemento} alt="Elemento decorativo" />
 
         </Conteudo>
     </div>
