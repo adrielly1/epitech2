@@ -6,5 +6,6 @@ export const theme = {
     white:"#FFFFFF",
     cardPurple: "#B185DB",
     cardGrey: "#D9D9D9",
-    colorHover: "#815ac0"
+    colorHover: "#815ac0",
+    negritoColor: "#7251b5"
 }
