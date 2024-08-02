@@ -28,18 +28,20 @@ export default function Prototipo() {
 
             <p>Levando em consideração os sintomas de pessoas epilépticas, o dispositivo consiste em um bracelete equipado com vários sensores conectados a uma plataforma Arduino.</p>
             <div className='Card'>
-              <h3>Esses sensores monitoram:</h3>
               <div>
-                <ul>
-                  <li>Frequência cardíaca;</li>
-                  <li>Temperatura corporal;</li>
-                  <li>Contrações musculares;</li>
-                  <li>Condutividade da pele;</li>
-                </ul>
+                <h3>Esses sensores monitoram:</h3>
+                <div>
+                  <ul>
+                    <li>Frequência cardíaca;</li>
+                    <li>Temperatura corporal;</li>
+                    <li>Contrações musculares;</li>
+                    <li>Condutividade da pele;</li>
+                  </ul>
+                </div>
               </div>
-              <div className="imgOne">
-                <img src={elemento} alt="Elemento decorativo" />
-              </div>
+              
+              <img src={elemento} alt="Elemento decorativo" />
+              
             </div>
           </section>
 
