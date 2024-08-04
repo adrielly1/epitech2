@@ -48,7 +48,7 @@ export default function ComoUsar() {
             <p><b>Descrição: </b>Monitore os dados que o bracelete envia para o aplicativo.</p>
             <p><b>Detalhes: </b>Certifique-se de que o bracelete está sincronizado com o aplicativo via Bluetooth ou outro método de conexão.</p>
             <p><b>Monitoramento: </b>Acesse a seção de monitoramento no aplicativo para visualizar sinais vitais, atividade física, e outros dados coletados pelo bracelete.</p>
-            <p><b>Dica: </b>Verifique regularmente o aplicativo para garantir que os dados estão sendo atualizados corretamente e para acompanhar o bem-estar da criança.</p>
+            <p><b>Dica: </b>Verifique regularmente o aplicativo para garantir que os dados estão sendo atualizados corretamente e para acompanhar o bem-estar da criança.</p>
           </section>
         </Conteudo>
     </div>
