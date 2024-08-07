@@ -14,5 +14,10 @@ export const Conteudo = styled.main`
         color: ${props => props.theme.negritoColor};
     }
 
+    .container {
+        display: flex;
+        align-items: flex-start;
+    }
+
     
 `

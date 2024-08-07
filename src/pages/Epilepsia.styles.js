@@ -64,7 +64,7 @@ export const Conteudo = styled.main`
     }
 
     .elements {
-        margin: 30px;
+        margin: 0px;
         justify-content: center;
         display: flex;
         gap: 300px;

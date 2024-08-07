@@ -14,7 +14,7 @@ export default function ComoUsar() {
         <Conteudo>
           <h1 className="backgroundTitle">FUNCIONAMENTO DO PROTÓTIPO:</h1>
 
-          <section>
+          <section className="container">
             <img src={p1} alt="Passo 1" />
             <h2>Compre o dispositivo</h2>
             <p><b>Descrição: </b>Adquira o dispositivo em uma loja física, online ou diretamente com o fabricante.</p>
