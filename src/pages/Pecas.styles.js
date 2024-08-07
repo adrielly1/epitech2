@@ -8,13 +8,13 @@ export const Conteudo = styled.main`
         margin: 80px  43%;
     }
 
-    h2 {
-        color: ${props => props.theme.titlePurple};
-        font-size: 40px;
+    0px;
         margin: 20px;
         margin-left: 60px;
         text-align: left;
-        margin-bottom: 50px;
+        margin-bottom: h2 {
+        color: ${props => props.theme.titlePurple};
+        font-size: 450px;
     }
     
     p {
