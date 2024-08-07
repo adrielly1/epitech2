@@ -16,20 +16,21 @@ export const Conteudo = styled.main`
     p b {
         color: ${props => props.theme.negritoColor};
     }
-    p, ul{
+    p {
         font-size: 25px;
         margin: 20px;
         margin-left: 60px;
     }
 
     section {
-        display: flex;
-        align-items: center;
         justify-content: center;
         gap: 40px;
         margin-bottom: 40px;
         padding: 40px;
+        display: flex;
+        align-items: center;
     }
+        
     
     section div {
         max-width: 1000px;
