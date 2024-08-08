@@ -10,7 +10,6 @@ export  const CardContainer = styled.header`
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     
@@ -55,6 +54,11 @@ export const NavHeader = styled.nav`
         text-decoration: none;
         color: ${props => props.theme.white}; 
 
+        
+    }
+
+    @media screen and (max-width: 1700px) {
+        display: none;
         
     }
 

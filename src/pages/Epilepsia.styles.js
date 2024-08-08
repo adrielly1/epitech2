@@ -115,4 +115,38 @@ export const Conteudo = styled.main`
         position: relative;
         
     }
+
+    @media screen and (max-width: 1700px) {
+
+        .backgroundTitle{
+            font-size: 40px;
+        }
+        
+        h1 {
+            margin: 80px  20%;
+        }
+
+        .card {
+            flex-direction: column;
+            justify-content: center;
+            gap: 0px;
+        }
+
+        .tituloCards {
+            flex-direction: column;
+        }
+
+        .cardGrey{
+            width: 90%;
+            border-bottom-left-radius: 30px;
+            border-top-right-radius: 0px;
+        }
+
+        .cardPurple{
+            width: 90%;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 0px;
+            border-top-right-radius: 30px;
+        }
+    }
 `
