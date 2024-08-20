@@ -4,6 +4,8 @@ export const Conteudo = styled.main`
     font-family: Archivo Black;
     text-align: left;
 
+    margin-bottom: 60px;
+
     h1 {
         margin: 80px  43%;
     }

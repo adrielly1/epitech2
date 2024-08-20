@@ -1,5 +1,7 @@
 import Header from './Header'
 import { Conteudo } from './Prototipo.styles'
+import Footer from "./Footer"
+
 
 import Bracelete from "../assets/bracelete.png"
 import elemento from "../assets/elementoProt.png"
@@ -61,6 +63,7 @@ export default function Prototipo() {
 
 
         </Conteudo>
+        <Footer/>
     </div>
   )
 }

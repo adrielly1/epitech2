@@ -89,7 +89,8 @@ export const Conteudo = styled.main`
         justify-content: center;
         gap: 20px;
         border-radius: 30px;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
+        
     }
 
     .sintomas img {
@@ -189,6 +190,7 @@ export const Conteudo = styled.main`
             gap: 20px;
             width: 90%;
             margin: 0 auto;
+            margin-bottom: 60px;
         }
 
         ul {

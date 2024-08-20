@@ -7,6 +7,7 @@ import Call from "../assets/call.svg"
 import insta from "../assets/instagram.svg"
 import email from "../assets/email.svg"
 import linke from "../assets/linkedin.svg"
+import Footer from "./Footer"
 
 
 export default function Integrantes() {
@@ -39,8 +40,8 @@ export default function Integrantes() {
               
           </section>
           <section>
-              <img src={leticia} alt="" />
-              <div>
+              <img src={leticia} alt=""  className="ultimo" />
+              <div className="ultimo">
                 <h2>Leticia Lima</h2>
                 <p><img src={email} alt="" className="icons" />leticiaakiralele2018@gmail.com</p>
                 <p><b><img src={Call} alt="" className="icons" /></b>(11) 97281-6578</p>
@@ -50,6 +51,7 @@ export default function Integrantes() {
               </div>
           </section>
         </Conteudo>
+        < Footer /> 
     </div>
   )
 }

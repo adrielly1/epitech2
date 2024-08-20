@@ -15,7 +15,6 @@ export const Conteudo = styled.div`
     align-items: center;
     min-height: 100%;
 
-    
 
     
 
@@ -67,8 +66,8 @@ export const Conteudo = styled.div`
         font-family: Archivo Black;
         font-weight: bold;
         gap: 40px;
-        margin-top: 40px;
         width: 80%;
+        margin-block: 60px;
     }
 
     .aligm div{

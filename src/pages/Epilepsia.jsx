@@ -7,6 +7,8 @@ import Reme from "../assets/remedios.png"
 import Cerebro510 from "../assets/cerebro5-10.png"
 import Cerebro1010 from "../assets/cerebro10-10.png"
 import Epi from "../assets/Epilepsia.png"
+import Footer from "./Footer"
+
 
 export default function Epilepsia() {
   return (
@@ -76,6 +78,7 @@ export default function Epilepsia() {
         
         
       </Conteudo>
+      <Footer />
     </div>
   )
 }

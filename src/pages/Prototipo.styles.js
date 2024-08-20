@@ -55,6 +55,8 @@ export const Conteudo = styled.main`
         border-radius: 20px;
         margin: 20px;
         left: 24%;
+
+        margin-bottom: 50px;
     }
 
     .Card div {
@@ -120,6 +122,7 @@ export const Conteudo = styled.main`
             width: 80%;        
             margin: 0 auto;
             left: 0%;
+            margin-bottom: 60px;
         }
 
         .Card img {

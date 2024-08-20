@@ -1,5 +1,7 @@
 import { Conteudo } from "./ComoUsar.styles";
 import Header from "./Header";
+import Footer from "./Footer"
+
 
 import p1 from "../assets/1..png"
 import p2 from "../assets/2..png"
@@ -61,6 +63,7 @@ export default function ComoUsar() {
             </div>
           </section>
         </Conteudo>
+        < Footer />
     </div>
   )
 }

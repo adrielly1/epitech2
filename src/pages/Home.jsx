@@ -1,6 +1,7 @@
 import Header from "./Header";
 import imgHome from "../assets/imgHomee.jpg"
 import { Conteudo } from "./Home.styles";
+import Footer from "./Footer"
 
 export default function Home() {
   return (
@@ -33,6 +34,8 @@ export default function Home() {
           </div>
           
         </Conteudo>
+
+        < Footer/>
     </div>
   )
 }

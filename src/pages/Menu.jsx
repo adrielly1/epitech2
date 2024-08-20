@@ -30,10 +30,7 @@ export default function Menu() {
                             <li><Link to="/integrantes">Integrantes</Link></li>
                         </ul>
                     </nav>
-                }
-
-                {/* Menu */}
-                
+                }                
             </div>
         </Container>
         

@@ -66,6 +66,10 @@ export const Conteudo = styled.main`
         width: 80%;
     }
 
+    .ultimo {
+        margin-bottom: 60px;
+    }
+
     @media screen and (max-width: 1020px){
         .title {
         padding-top: 50px;

@@ -1,5 +1,7 @@
 import Header from './Header'
 import { Conteudo } from './Pecas.styles'
+import Footer from "./Footer"
+
 
 import Emg from "../assets/emg.png"
 import P24 from "../assets/p24.png"
@@ -98,6 +100,7 @@ export default function Pecas() {
             
           </section>
         </Conteudo>
+        < Footer />
     </div>
   )
 }
