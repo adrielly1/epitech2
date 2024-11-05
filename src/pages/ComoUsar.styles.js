@@ -34,7 +34,7 @@ export const Conteudo = styled.main`
         
     
     section div {
-        width: 900px;
+        width: 850px;
     }
 
     section img {

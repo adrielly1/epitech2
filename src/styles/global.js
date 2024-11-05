@@ -28,7 +28,7 @@ export const GlobalStytle = createGlobalStyle`
         padding: 0;
         border-radius: 15px;
 
-        font-size: 50px;
+        font-size: 52px;
         font-family: Archivo Black;
         text-align: center;
     }

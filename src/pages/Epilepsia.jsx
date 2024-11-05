@@ -19,7 +19,7 @@ export default function Epilepsia() {
         
         <section>
           <div className="text">
-            <p >Epilepsia é um transtorno neurológico caracterizada pelas crises epilépticas recorrentes, essas crises são causadas por descargas elétricas anormais e excessivas de neurônios no córtex cerebral.</p>
+            <p >Epilepsia é um transtorno neurológico caracterizado por crises epilépticas causadas por descargas elétricas anormais e excessivas de neurônios no córtex cerebral.</p>
           </div>
           
           <h2>Crises epiléticas:</h2>
@@ -43,10 +43,10 @@ export default function Epilepsia() {
             <img src={seringa} alt="Ilustração medicamento" />
           </div>
           <div className="text">
-            <p>A OMS (Organização Mundial da Saúde) inclui a epilepsia como transtorno mental. Pessoas com epilepsia sofrem estigma e quando deixadas sem tratamento, podem sofrer graves disfunções. Embora considerada como transtorno mental, ainda é difícil classificar as causas dos transtornos mentais associadas à epilepsia.</p>
+            <p>A epilepsia, apesar de ser classificada pela OMS (Organização Mundial da Saúde) como transtorno mental, ainda tem suas causas mentais pouco compreendidas.</p>
           </div>
           <div className="text">
-            <p>Para o tratamento, usa-se fármacos, conhecidos também como antiepilépticos. Epilepsia não tem cura e a finalidade do tratamento é apenas sintomática, a prioridade é manter a pessoa sem crises e isso é conseguido com o uso regular da medicação. Porém, mesmo com os vários medicamentos que existem hoje em dia, mais de 30% dos doentes não obtém um controle completo das crises.</p>
+            <p>Para o tratamento, usa-se fármacos, conhecidos também como antiepilépticos. Epilepsia não tem cura e a finalidade do tratamento é apenas sintomática. Porém, mesmo com os vários medicamentos que existem hoje em dia, mais de 30% dos doentes não obtém um controle completo das crises.</p>
           </div>
           
         </section>
@@ -78,7 +78,6 @@ export default function Epilepsia() {
         
         
       </Conteudo>
-      <Footer />
     </div>
   )
 }

@@ -13,6 +13,13 @@ import Atmega from "../assets/atmega.png"
 import Bluetooth from "../assets/bluetooth.png"
 import R330 from "../assets/r330.png"
 import R220 from "../assets/r220.png"
+import MAX30 from "../assets/max30.webp"
+import NANO from "../assets/nano.webp"
+import BZZ from "../assets/buzzer.webp"
+import BTT from "../assets/btt.webp"
+import LEDR from "../assets/led.webp"
+import ELET from "../assets/elet.webp"
+import BATERIA from "../assets/bateria.webp"
 
 export default function Pecas() {
   return (
@@ -21,18 +28,18 @@ export default function Pecas() {
         <Conteudo>
           <h1 className="backgroundTitle" >PEÇAS</h1>
           <section>
-            <img src={Emg} alt="" />
+            <img src={MAX30} alt="" />
             <div>
-              <h2>Módulo Sensor Eletromiográfico de Sinal Muscular - EMG</h2>
-              <p>O Módulo Sensor Eletromiográfico é um dispositivo utilizado para medir a atividade elétrica dos músculos. Ele é comumente usado em projetos de robótica e dispositivos de interface humano-computador, permitindo que movimentos musculares sejam convertidos em sinais elétricos que podem ser lidos por microcontroladores como Arduino ou Raspberry Pi.</p>
+              <h2>Sensor Max30102 De Batimento Cardíaco Oximetro Pulso I2c Gy:</h2>
+              <p>Detectam batimentos cardíacos e medem indiretamente a quantidade de oxigênio no sangue.</p>
             </div>
           </section>
           <section>
             <img src={P24} alt="" />
             <div>
               
-              <h2>Sensor De Condutividade Gbk Robotics P24</h2>
-              <p>O Sensor de Condutividade GBK Robotics P24 é um dispositivo projetado para trabalhar com microcontroladores como Arduino, Raspberry Pi, ARM, AVR, Atmel, entre outros. Ele é capaz de medir a condutividade em diversas superfícies e é frequentemente utilizado em projetos educacionais, como pequenos pianos feitos com Arduino, onde materiais condutivos podem ser usados como teclas.</p>
+              <h2>Sensor De Condutividade Gbk Robotics P24:</h2>
+              <p>É capaz de medir a condutividade em diversas superfícies. </p>
             </div>
             
           </section>
@@ -40,7 +47,7 @@ export default function Pecas() {
             <img src={MM} alt="" />
             <div>
             <h2>Jumpers - Macho/Macho</h2>
-            <p>Os jumpers macho-macho são cabos de conexão que possuem conectores macho em ambas as extremidades. Eles são usados para interligar componentes eletrônicos em protoboards, placas de circuito impresso (PCBs) ou outros dispositivos onde os pinos ou terminais dos componentes também são do tipo macho. Esses jumpers são muito úteis para prototipagem e testes em eletrônica, pois permitem uma conexão rápida e sem a necessidade de soldagem.</p>
+            <p>São usados para interligar componentes eletrônicos em protoboards, placas de circuito impresso (PCBs) ou outros dispositivos onde os pinos ou terminais dos componentes também são do tipo macho.</p>
             </div>
           </section>
           <section>
@@ -48,7 +55,7 @@ export default function Pecas() {
             <div>
               
               <h2>Jumpers - Fêmea/Fêmea</h2>
-              <p>Os jumpers fêmea-fêmea são cabos de conexão que possuem conectores fêmea em ambas as extremidades. Eles são usados para interligar componentes eletrônicos em protoboards ou placas de circuito impresso (PCIs), onde os pinos ou terminais dos componentes também são do tipo fêmea. Esses jumpers são muito úteis para prototipagem e testes em eletrônica, pois permitem uma conexão rápida e sem a necessidade de soldagem.</p>
+              <p>São usados para interligar componentes eletrônicos em protoboards, placas de circuito impresso (PCBs) ou outros dispositivos onde os pinos ou terminais dos componentes também são do tipo fêmea.</p>
             </div>
             
           </section>
@@ -56,7 +63,7 @@ export default function Pecas() {
             <img src={MF} alt="" />
             <div>
               <h2>Jumpers - Macho/Fêmea</h2>
-              <p>Os jumpers macho-fêmea são cabos de conexão essenciais para projetos de eletrônica, especialmente úteis em prototipagem e testes. Eles permitem a conexão entre os pinos macho de uma placa, como um Arduino, e os soquetes fêmea de uma protoboard ou vice-versa, sem a necessidade de soldagem.</p>
+              <p>Eles permitem a conexão entre os pinos macho de uma placa, como um Arduino, e os soquetes fêmea de uma protoboard ou vice-versa, sem a necessidade de soldagem.</p>
             </div>
           </section>
           <section>
@@ -64,15 +71,16 @@ export default function Pecas() {
             <div>
               
               <h2>Sensor Temperatura LM35DZ</h2>
-              <p>O Sensor de Temperatura LM35 é um dispositivo eletrônico utilizado para medir a temperatura ambiente com alta precisão. Com uma faixa de operação que vai de -55°C a +150°C, o LM35DZ oferece uma ampla gama de aplicações em diversos ambientes. Sua sensibilidade de 10 mV por grau Celsius proporciona uma leitura linear e confiável da temperatura.</p>
+              <p>Utilizado para medir a temperatura ambiente com alta precisão. Com uma faixa de operação que vai de -55°C a +150°C, o LM35DZ oferece uma ampla gama de aplicações em diversos ambientes.
+              </p>
             </div>
             
           </section>
           <section>
-            <img src={Atmega} alt="" />
+            <img src={NANO} alt="" />
             <div>
-              <h2>Arduino Pro Micro ATmega32U4 5V</h2>
-              <p>O Arduino Pro Micro ATmega32U4 5V é uma pequena plataforma de prototipagem baseada no microcontrolador ATmega32U4. Ele é projetado para uso em pequenos projetos eletrônicos e tem a vantagem de ser facilmente instalável em protoboards, ocupando um espaço mínimo.</p>
+              <h2>Placa Nano V3 + Cabo USB para Arduino:</h2>
+              <p>A Placa Nano V3.0 Arduino é uma placa pequena, baseada no ATmega328, completa e fácil de usar.</p>
             </div>
           </section>
           <section>
@@ -80,7 +88,7 @@ export default function Pecas() {
             <div>
               
               <h2>Bluetooth HC-05 </h2>
-              <p>O Módulo Bluetooth HC-05 é um módulo de comunicação sem fios, ideal para enviar ou receber informações com seu projeto Arduino remotamente. O Módulo Bluetooth HC-05 suporta os modos Mestre (Master) e Escravo (Slave), possui regulador de tensão e aceita tensões de 3.3 a 5V, e um LED indicador de funcionamento.</p>
+              <p>É um módulo de comunicação sem fios, ideal para enviar ou receber informações com seu projeto Arduino remotamente.</p>
             </div>
             
           </section>
@@ -88,19 +96,63 @@ export default function Pecas() {
             <img src={R330} alt="" />
             <div>
               <h2>Resistor 330</h2>
-              <p>O Resistor 330 ohms 1/4W é um componente eletrônico capaz de limitar a corrente elétrica em um determinado fluxo de energia.  Pelo fato de possuir uma resistência maior do que a dos cabos e das trilhas de um circuito elétrico, o resistor força a redução da corrente elétrica que passa por ele, provocando assim, uma queda de tensão.</p>
+              <p>É um componente eletrônico capaz de limitar a corrente elétrica em um determinado fluxo de energia.</p>
             </div>
           </section>
           <section>
             <img src={R220} alt="" />
             <div>
               <h2>Resistor 220</h2>
-              <p>O Resistor 220 ohms 1/4W é um componente eletrônico capaz de limitar a corrente elétrica em um determinado fluxo de energia. Pelo fato de possuir uma resistência maior do que a dos cabos e das trilhas de um circuito elétrico, o resistor força a redução da corrente elétrica que passa por ele, provocando assim, uma queda de tensão.</p>
+              <p>É um componente eletrônico capaz de limitar a corrente elétrica em um determinado fluxo de energia.</p>
+            </div>
+            
+          </section>
+          <section>
+            <img src={BZZ} alt="" />
+            <div>
+              <h2>Buzzer ativo 9V:</h2>
+              <p>É um componente indicado para adicionar efeitos sonoros em projetos eletrônicos como alarmes, sistemas de sinalização, jogos, brinquedos, etc.</p>
+            </div>
+            
+          </section>
+          <section>
+            <img src={LEDR} alt="" />
+            <div>
+              <h2>Led Difuso 5mm Vermelho: </h2>
+              <p>É um componente eletrônico utilizado em diversos projetos de iluminação e sinalização.</p>
+            </div>
+            
+          </section>
+
+          
+
+          <section>
+            <img src={BTT} alt="" />
+            <div>
+              <h2>Push button (chave táctil): </h2>
+              <p>É usado como um botão para acionamento de um determinado circuito eletrônico.</p>
+            </div>
+            
+          </section>
+
+          <section>
+            <img src={ELET} alt="" />
+            <div>
+              <h2>Eletrodos reutilizáveis:</h2>
+              <p>Adesivos com metal usado para verificar a condutividade da pele.</p>
+            </div>
+            
+          </section>
+
+          <section>
+            <img src={BATERIA} alt="" />
+            <div>
+              <h2>Bateria 9V:</h2>
+              <p>Destinada a veículos pesados, que necessitam de alimentação para sistemas elétricos com componentes que, priorizam a performance e potência.</p>
             </div>
             
           </section>
         </Conteudo>
-        < Footer />
     </div>
   )
 }

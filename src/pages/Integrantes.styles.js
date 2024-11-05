@@ -37,7 +37,7 @@ export const Conteudo = styled.main`
         display: flex;
         align-items: center;
         gap: 80px;
-        margin-left: 350px;
+        margin-left: 550px;
         
     }
 
@@ -54,7 +54,7 @@ export const Conteudo = styled.main`
     }
 
     section img {
-        width: 500px;
+        width: 300px;
         margin-top: 50px;
         border-radius: 1500px;
         padding: 25px;
@@ -72,12 +72,12 @@ export const Conteudo = styled.main`
 
     @media screen and (max-width: 1020px){
         .title {
-        padding-top: 50px;
+            padding-top: 50px;
         }
         h1 { 
             margin-bottom: 20px;
             width: 60%;
-            margin-inline: 75px;
+            margin-inline: 90px;
             
         }
 

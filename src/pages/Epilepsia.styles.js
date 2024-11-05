@@ -7,6 +7,9 @@ export const Conteudo = styled.main`
     h2 {
         color: ${props => props.theme.titlePurple};
         text-align: center;
+        font-size: 35px;
+        margin: 30px;
+        margin-left: 60px;
     }
     h3 {
         font-size: 40px;
@@ -34,12 +37,12 @@ export const Conteudo = styled.main`
 
     p {
         text-align: justify;
-        width: 80%;
+        width: 70%;
     }
 
     
 
-    p, ul, h2{
+    p, ul{
         font-size: 25px;
         margin: 30px;
         margin-left: 60px;

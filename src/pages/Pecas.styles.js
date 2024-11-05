@@ -34,11 +34,11 @@ export const Conteudo = styled.main`
     
     section div {
         text-align: justify;
-        width: 80%;
+        width: 50%;
     }
     
     section img {
-        width: 600px;
+        width: 400px;
     }
 
     @media screen and (max-width: 1020px){

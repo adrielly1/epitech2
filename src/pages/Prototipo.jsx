@@ -21,25 +21,17 @@ export default function Prototipo() {
             <h2>Dispositivo de Monitoramento de Pessoas Epilépticas:</h2>
 
             <div className="text">
-              <p>Nosso projeto consiste no desenvolvimento de um dispositivo de biofeedback, projetado para monitorar sinais vitais e dizer se as crianças e adolescentes estão tendo crises epilépticas, proporcionando um aviso antecipado para que medidas preventivas possam ser tomadas.</p>
+              <p>O projeto consiste em um dispositivo de monitoramento epiléptico projetado para monitorar sinais vitais de crianças e adolescentes.</p>
             </div>
             <div className="text">
-              <p>O objetivo do projeto é analisar os sinais vitais e identificar o possível começo de uma convulsão, queremos reduzir a ansiedade e o estresse associados à imprevisibilidade das crises.</p>
+              <p>O objetivo é identificar o possível começo de uma convulsão e reduzir a ansiedade e o estresse associados à imprevisibilidade das crises.</p>
  
             </div>
-            <div className="text">
-              <p>O diferencial do projeto é o foco em desenvolver a capacidade do dispositivo de prever e avisar quando a criança ou adolescente passa por uma crise epiléptica.</p>
-            </div>
-            <div className="text">
-              <p>Utilizando o Arduino, criamos um bracelete que envia alertas tanto para a pessoa quanto para seus responsáveis, através de um aplicativo.</p>
-            </div>
-
-            
           </section>
           <section>          
             <h2>Sensores:</h2>
             <div className="text">
-              <p>Levando em consideração os sintomas de pessoas epilépticas, o dispositivo consiste em um bracelete equipado com vários sensores conectados a uma plataforma Arduino.</p>              
+              <p>Considerando os sintomas de pessoas com epilepsia, foi criado utilizando o arduíno, um bracelete equipado com vários sensores que enviam alertas tanto para a pessoa quanto para seus responsáveis, através de um aplicativo.</p>              
             </div>
 
             <div className='Card'>
@@ -63,7 +55,7 @@ export default function Prototipo() {
 
 
         </Conteudo>
-        <Footer/>
+        
     </div>
   )
 }

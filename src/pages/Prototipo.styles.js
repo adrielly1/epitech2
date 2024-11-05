@@ -12,16 +12,18 @@ export const Conteudo = styled.main`
         color: ${props => props.theme.titlePurple};
         text-align: center;
         margin: 30px;
+        font-size: 35px;
     }
 
     p {
         text-align: justify;
-        width: 80%;
+        width: 70%;
         margin: 0px;
+        font-size: 25px;
     }
 
     p,h2{
-        font-size: 25px;
+        
         margin-bottom: 15px;
         margin-left: 60px;
     }

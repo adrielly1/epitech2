@@ -18,7 +18,7 @@ export default function Home() {
           <div className="aligm">
             <div className="cardPurple">
               <h3 className="textgrey  ">Você sabia que...</h3>
-              <p>É possível manter a consciência durante uma crise de epilepsia. Elas podem ser com ou sem alteração da consciência</p>
+              <p>Durante uma crise epiléptica, é possível a pessoa manter a consciência. A manifestação da crise varia de caso para caso.</p>
             </div>
             <div className="cardGrey">
               <h3 >Dia da Epilepsia</h3>
@@ -35,7 +35,6 @@ export default function Home() {
           
         </Conteudo>
 
-        < Footer/>
     </div>
   )
 }
