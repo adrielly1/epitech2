@@ -151,6 +151,15 @@ export const Conteudo = styled.main`
             font-size: 30px;
             margin-bottom: 10px;
         }
+
+        .vdd {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            width: 400px;
+            
+        }
         .card {
             display: flex;
             flex-direction: column;

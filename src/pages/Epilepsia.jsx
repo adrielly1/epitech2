@@ -81,7 +81,7 @@ export default function Epilepsia() {
           </div>
           
           <div className="vdd">
-            <video width="800" height="500" controls>
+            <video  controls>
               <source src={JOGO} type="video/mp4" />
               Seu navegador não suporta a exibição de vídeos.
             </video>
