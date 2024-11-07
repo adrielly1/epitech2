@@ -6,6 +6,7 @@ import seringa from "../assets/seringa.png"
 import Reme from "../assets/remedios.png"
 import Cerebro510 from "../assets/cerebro5-10.png"
 import Cerebro1010 from "../assets/cerebro10-10.png"
+import JOGO from "../assets/jogo.mp4"
 import Epi from "../assets/Epilepsia.png"
 import Footer from "./Footer"
 
@@ -73,6 +74,21 @@ export default function Epilepsia() {
           </div>
         </section>
 
+        <section>
+          <h2>Jogo</h2>
+          <div className="text">
+            <p>Você pode explorar um pouco mais da epilepsia a partir do nosso jogo. Veja:</p>
+          </div>
+          
+          <div className="vdd">
+            <video width="800" height="500" controls>
+              <source src={JOGO} type="video/mp4" />
+              Seu navegador não suporta a exibição de vídeos.
+            </video>
+
+          </div>
+          
+        </section>
     
         
         

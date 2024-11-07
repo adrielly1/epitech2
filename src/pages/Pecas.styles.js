@@ -38,7 +38,7 @@ export const Conteudo = styled.main`
     }
     
     section img {
-        width: 400px;
+        width: 300px;
     }
 
     @media screen and (max-width: 1020px){

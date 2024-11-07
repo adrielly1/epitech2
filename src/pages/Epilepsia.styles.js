@@ -12,8 +12,19 @@ export const Conteudo = styled.main`
         margin-left: 60px;
     }
     h3 {
-        font-size: 40px;
+        font-size: 25px;
+        text-align: center;
     }
+
+    .vdd {
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
+        
+    }
+
 
     .cardPurple {
         width: 30%;
