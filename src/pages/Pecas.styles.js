@@ -7,7 +7,11 @@ export const Conteudo = styled.main`
     margin-bottom: 60px;
 
     h1 {
-        margin: 80px  43%;
+        margin-bottom: 110px;
+        width: fit-content;
+        padding: 10px;
+        margin-inline: auto;
+        margin-block: 50px;
     }
 
     h2 {

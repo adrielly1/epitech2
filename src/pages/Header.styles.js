@@ -60,7 +60,7 @@ export const NavHeader = styled.nav`
 
     ul {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         
         list-style: none;
@@ -68,7 +68,6 @@ export const NavHeader = styled.nav`
     }
 
     li {
-        margin: 5px 30px;
         padding:15px 20px;
 
         border-radius: 10px;

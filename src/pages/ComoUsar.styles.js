@@ -3,7 +3,11 @@ import styled from "styled-components";
 export const Conteudo = styled.main`
     font-family: Archivo Black;
     h1 {
-        margin: 80px  23%;
+        margin-bottom: 110px;
+        width: fit-content;
+        padding: 10px;
+        margin-inline: auto;
+        margin-block: 50px;
     }
 
     h2 {

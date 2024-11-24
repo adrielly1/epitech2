@@ -2,7 +2,10 @@ import styled from "styled-components";
 
 export const Conteudo = styled.main`
     h1{
-        margin: 80px  34%;
+        width: fit-content;
+        margin-inline: auto;
+        margin-block: 50px;
+        padding: 10px;
     }
     h2 {
         color: ${props => props.theme.titlePurple};

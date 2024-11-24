@@ -5,7 +5,11 @@ export const Conteudo = styled.main`
 
     
     h1{
-        margin: 80px  40%;
+        margin-bottom: 110px;
+        width: fit-content;
+        padding: 10px;
+        margin-inline: auto;
+        margin-block: 50px;
     }
 
     h2 {

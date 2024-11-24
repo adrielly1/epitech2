@@ -9,8 +9,9 @@ export const Conteudo = styled.main`
     }
     h1 { 
         margin-bottom: 110px;
-        width: 25%;
-        margin-inline: 700px;
+        margin-inline: auto;
+        width: fit-content;
+        padding: 10px;
         
     }
 
@@ -37,7 +38,8 @@ export const Conteudo = styled.main`
         display: flex;
         align-items: center;
         gap: 80px;
-        margin-left: 550px;
+        margin-inline: auto;
+        width: 1021px;
         
     }
 
@@ -95,6 +97,7 @@ export const Conteudo = styled.main`
             flex-direction: column;
             gap: 40px;
             margin-left: 0px;
+            width: fit-content;
             
         }
         section img {
