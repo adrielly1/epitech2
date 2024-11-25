@@ -20,11 +20,11 @@ export const Conteudo = styled.main`
     }
 
     .vdd {
-         display: flex;
+        display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
-        width: 100%;
+        width: auto;
         
     }
 

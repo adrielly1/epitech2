@@ -8,6 +8,7 @@ import p2 from "../assets/2..png"
 import p3 from "../assets/3..png"
 import p4 from "../assets/4..png"
 import p5 from "../assets/5..png"
+import Vfuncionando from "../assets/funcionando.mp4"
 
 export default function ComoUsar() {
   return (
@@ -59,6 +60,15 @@ export default function ComoUsar() {
               <p><b>Dica: </b>Verifique regularmente o aplicativo para garantir que os dados estão sendo atualizados corretamente e para acompanhar o bem-estar da criança.</p>
             </div>
           </section>
+          <p className="Vide">Segue exemplo de como as informações devem aparecer no App:</p>
+          <div className="vdd">
+            
+            <video  controls>
+              <source src={Vfuncionando} type="video/mp4" />
+              Seu navegador não suporta a exibição de vídeos.
+            </video>
+
+          </div>
         </Conteudo>
     </div>
   )

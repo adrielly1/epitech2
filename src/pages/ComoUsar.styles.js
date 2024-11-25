@@ -17,6 +17,15 @@ export const Conteudo = styled.main`
         margin-left: 60px;
     }
 
+    .vdd {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        width: auto;
+        
+    }
+
     p b {
         color: ${props => props.theme.negritoColor};
     }
@@ -25,6 +34,11 @@ export const Conteudo = styled.main`
         font-size: 25px;
         margin: 20px;
         margin-left: 60px;
+    }
+
+    .Vide {
+        text-align: center;
+        margin: 30px;
     }
 
     section {
