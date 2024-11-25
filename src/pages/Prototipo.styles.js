@@ -82,6 +82,8 @@ export const Conteudo = styled.main`
     .imgOne {
         display: flex;
         justify-content: center;
+        height: 500px;
+        margin-inline: auto;
     }
 
     @media screen and (max-width:1020px) {
